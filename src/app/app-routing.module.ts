@@ -20,6 +20,10 @@ const routes: Routes = [
     path: 'hotels-details',
     loadChildren: () => import('./hotels-details/hotels-details.module').then( m => m.HotelsDetailsPageModule)
   },
+  {
+    path: 'callcenter',
+    loadChildren: () => import('./callcenter/callcenter.module').then( m => m.CallcenterPageModule)
+  },
 ];
 
 @NgModule({

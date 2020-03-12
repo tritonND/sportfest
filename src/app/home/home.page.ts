@@ -13,6 +13,9 @@ export class HomePage {
   showEvents() {
     this.router.navigate(['/events']);
 }
+  showCallCenter() {
+    this.router.navigate(['/callcenter']);
+  }
     showHotels() {
         this.router.navigate(['/hotels']);
     }
