@@ -1,0 +1,45 @@
+
+{
+  "events": [
+    {
+      "name": "Games Village Opens",
+      "code": "",
+      "event_days": "Friday, March 20th, 2020",
+      "venue" : "University of Benin, Halls of Residence & Federal Government Girls College, Ugbowo",
+      "latitude": 6.6117993,
+      "longitude": 3.2194934
+    },
+    {
+      "name": "Opening Ceremony",
+      "code": "",
+      "event_days": "Sunday, March 22nd, 2020",
+      "venue": "Sam Ogbemudia Stadium",
+      "latitude": 6.6132098,
+      "longitude": 5.6047829
+    },
+    {
+      "name": "Abula",
+      "code": "AB",
+      "event_days": "Monday, March 23rd to Sunday, March 29th, 2020",
+      "venue": "Sports Complex, University of Benin",
+      "latitude": 6.1699005,
+      "longitude": 5.7955734
+    },
+    {
+      "name": "Athletics",
+      "code": "AT",
+      "event_days": "Tuesday, March 24th to Sunday, March 29th, 2020",
+      "venue": "Sam Ogbemudia Stadium Main Bowl",
+      "latitude": 6.315948,
+      "longitude": 5.6047829
+    },
+    {
+      "name": "Ayo",
+      "code": "AY",
+      "event_days": "Monday, March 23rd to Sunday, March 29th, 2020",
+      "venue": "Sam Ogbemudia Stadium Main Bowl",
+      "latitude": 6.315948,
+      "longitude": 5.6047829
+    }
+  ]
+}

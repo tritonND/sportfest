@@ -1,0 +1,31 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary" align = "center">
+    <ion-title>2020 National Sport Festival</ion-title>
+  </ion-toolbar>
+</ion-header>
+ 
+
+<ion-content [fullscreen]="true">
+
+
+  <div align="center" style="margin-top: 2em" class="ion-justify-content-center animated zoomIn">
+    <ion-img style="width: 50%; height: 50%" src="../../assets/imgs/EDO-2020.png"></ion-img>
+  </div>
+
+  <div align="center" style="margin-top: 3.5em; font-weight: lighter;" >
+  <ion-button class="animated fadeInLeft" expand="block" (click)="showEvents()"> Competition Schedule</ion-button>
+  <ion-button class="animated fadeInRight" expand="block" color="success" (click)="showHotels()"> Hotels</ion-button>
+  <ion-button class="animated fadeInLeft" expand="block" color="danger" (click)="showHospitals()"> Hospitals </ion-button>
+  <ion-button class="animated fadeInRight" expand="block" color="warning" (click)="showTourist()"> Tourist Attraction </ion-button>
+   
+   
+    </div>
+</ion-content>
+
+
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar align="center" color="dark">
+    <ion-title style="font-size: small;">Developed By Edo ICTA</ion-title>
+  </ion-toolbar>
+</ion-footer>

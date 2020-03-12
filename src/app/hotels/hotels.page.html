@@ -1,0 +1,36 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary" align = "center">
+    <ion-title>2020 National Sport Festival</ion-title>
+    <ion-button slot="end" (click)="homePage()">Home</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <div align="center" class="animated zoomIn">  <h3 style="font-weight: lighter">Hotels and Details</h3> <hr style="background-color: #808289 !important;"> </div>
+
+  <ion-list>
+    <ion-item *ngFor="let hotel of hotelData" (click)="getHotelDetails(hotel)">
+      <ion-card style="width: 100% !important;">
+        <ion-card-content>
+          <h2 style="color: #000000"><b> {{hotel.name}} </b></h2>
+          <h3 style="overflow-wrap: break-word !important;"><ion-icon name="location-sharp"></ion-icon> {{hotel.address }}</h3>
+          <p style="overflow-wrap: break-word !important; color: #3880ff !important;"><b>Contact Person:</b> {{hotel.contact_person}}</p>
+          <p style="overflow-wrap: break-word !important; color: #26941b !important;"><ion-icon name="call-sharp"></ion-icon> {{hotel.contact_phone}}</p>
+
+        </ion-card-content>
+      </ion-card>
+
+    </ion-item>
+  </ion-list>
+
+</ion-content>
+
+
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar align="center" color="dark">
+    <ion-title style="font-size: small;">Developed By Edo ICTA</ion-title>
+  </ion-toolbar>
+</ion-footer>
+
