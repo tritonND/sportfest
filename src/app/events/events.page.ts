@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { EventsService } from '../service/events.service';
 import { Router, NavigationExtras } from '@angular/router';
 
@@ -36,5 +36,6 @@ export class EventsPage implements OnInit {
 
   ngOnInit() {
   }
+
 
 }

@@ -24,6 +24,22 @@ const routes: Routes = [
     path: 'callcenter',
     loadChildren: () => import('./callcenter/callcenter.module').then( m => m.CallcenterPageModule)
   },
+  {
+    path: 'hospitals',
+    loadChildren: () => import('./hospitals/hospitals.module').then( m => m.HospitalsPageModule)
+  },
+  {
+    path: 'hospitals-details',
+    loadChildren: () => import('./hospitals-details/hospitals-details.module').then( m => m.HospitalsDetailsPageModule)
+  },
+  {
+    path: 'recreation',
+    loadChildren: () => import('./recreation/recreation.module').then( m => m.RecreationPageModule)
+  },
+  {
+    path: 'recreation-details',
+    loadChildren: () => import('./recreation-details/recreation-details.module').then( m => m.RecreationDetailsPageModule)
+  },
 ];
 
 @NgModule({

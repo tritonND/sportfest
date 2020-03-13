@@ -7,7 +7,10 @@
  
 
 <ion-content>
- <div align="center" class="animated zoomIn">  <h3 style="font-weight: lighter">Events Schedule</h3> <hr style="background-color: #808289 !important;"> </div>
+ <div align="center" class="animated zoomIn">
+     <h3 style="font-weight: lighter">Events Schedule</h3>
+     <p style="color: #acaeb5; font-size: small; margin-top: 0%">Click on an Event to view more details</p>
+     <hr style="background-color: #808289 !important;"> </div>
 
   <ion-list>
     <ion-item *ngFor="let event of eventData" (click)="getEventDetails(event)">
@@ -28,7 +31,7 @@
 
 
 <ion-footer class="ion-no-border">
-  <ion-toolbar align="center" color="dark">
-    <ion-title style="font-size: small;">Developed By Edo ICTA</ion-title>
-  </ion-toolbar>
+    <ion-toolbar align="center" color="dark">
+        <ion-title style="font-size: small;">Developed By Edo ICT Agency &copy;2020</ion-title>
+    </ion-toolbar>
 </ion-footer>

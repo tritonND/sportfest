@@ -9,15 +9,35 @@
 
 
   <div align="center" style="margin-top: 2em" class="ion-justify-content-center animated zoomIn">
-    <ion-img style="width: 50%; height: 50%" src="../../assets/imgs/EDO-2020.png"></ion-img>
+    <!--<ion-img style="width: 50%; height: 50%" src="../../assets/imgs/EDO-2020.png"></ion-img>-->
+    <ion-img style="width: 85%; height: 85%" src="../../assets/imgs/banner.png"></ion-img>
   </div>
 
-  <div align="center" style="margin-top: 3.5em; font-weight: lighter;" >
-  <ion-button class="animated fadeInLeft" expand="block" (click)="showEvents()"> Competition Schedule</ion-button>
-  <ion-button class="animated fadeInRight" expand="block" color="success" (click)="showHotels()"> Hotels</ion-button>
-  <ion-button class="animated fadeInLeft" expand="block" color="danger" (click)="showHospitals()"> Hospitals </ion-button>
-  <ion-button class="animated fadeInRight" expand="block" color="warning" (click)="showTourist()"> Tourist Attraction </ion-button>
-  <ion-button class="animated fadeInUp" expand="block" color="warning" (click)="showCallCenter()"> Call Center </ion-button>
+  <div align="center" style="margin-top: 3em; font-weight: lighter;  left: 50%; top: 50%" >
+  <ion-button class="animated fadeInLeft" expand="block" (click)="showEvents()">
+      <ion-icon name="trophy-outline"></ion-icon>
+      &nbsp; Competition Schedule
+  </ion-button>
+
+  <ion-button style="margin-top: 0.5em" class="animated fadeInRight" expand="block" color="success" (click)="showHotels()">
+      <ion-icon name="bed-outline"></ion-icon>
+      &nbsp; Hotels
+  </ion-button>
+
+  <ion-button style="margin-top: 0.5em" class="animated fadeInLeft" expand="block" color="danger" (click)="showHospitals()">
+      <ion-icon name="medkit-outline"></ion-icon>
+      &nbsp;&nbsp;Hospitals
+  </ion-button>
+
+  <ion-button style="margin-top: 0.5em" class="animated fadeInRight" expand="block" color="warning" (click)="showTourist()">
+      <ion-icon name="airplane-outline"></ion-icon>
+      &nbsp;Tourist Attraction
+  </ion-button>
+
+  <ion-button style="margin-top: 0.5em" class="animated fadeInUp" expand="block" color="secondary" (click)="showCallCenter()">
+      <ion-icon name="call-outline"></ion-icon>
+      &nbsp;Call Center
+  </ion-button>
 
    
     </div>
@@ -26,7 +46,7 @@
 
 
 <ion-footer class="ion-no-border">
-  <ion-toolbar align="center" color="dark">
-    <ion-title style="font-size: small;">Developed By Edo ICTA</ion-title>
-  </ion-toolbar>
+    <ion-toolbar align="center" color="dark">
+        <ion-title style="font-size: small;">Developed By Edo ICT Agency &copy;2020</ion-title>
+    </ion-toolbar>
 </ion-footer>
