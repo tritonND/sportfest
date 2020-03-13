@@ -1,24 +1,24 @@
 <ion-header [translucent]="true">
-  <ion-toolbar color="primary" align = "center">
+  <ion-toolbar color="warning" align = "center">
     <ion-title>2020 National Sport Festival</ion-title>
-    <ion-button slot="end" (click)="homePage()">Home</ion-button>
+    <ion-button color="warning" slot="end" (click)="homePage()">Home</ion-button>
   </ion-toolbar>
 </ion-header>
 
 
 <ion-content>
   <div align="center" class="animated zoomIn">
-    <h3 style="font-weight: lighter">Events Schedule</h3>
-    <p style="color: #acaeb5; font-size: small; margin-top: 0%">Click on an Event to view more details</p>
+    <h3 style="font-weight: lighter">Tourist Attractions</h3>
+    <p style="color: #acaeb5; font-size: small; margin-top: 0%">Click to view more details</p>
     <hr style="background-color: #808289 !important;"> </div>
 
   <ion-list>
-    <ion-item *ngFor="let event of eventData" (click)="getEventDetails(event)">
+    <ion-item *ngFor="let recreation of recreationData" (click)="getRecreationDetails(recreation)">
       <ion-card style="width: 100% !important;">
         <ion-card-content>
-          <h2 style="color: #000000"><b>Event:</b> {{event.name}} </h2>
-          <h3 style="overflow-wrap: break-word !important;"><b>Venue:</b> {{event.venue}}</h3>
-          <p style="overflow-wrap: break-word !important; color: #3880ff !important;"><b>Date:</b> {{event.event_days}}</p>
+          <h2 style="color: #000000; text-transform: uppercase"><b> {{recreation.name}} </b> </h2>
+          <h3 style="overflow-wrap: break-word !important;"><b>Location:</b> {{recreation.address}}</h3>
+          <p style="overflow-wrap: break-word !important; color: #623811 !important; margin-top: 0.3em"><b>Description:</b> <br> {{recreation.description}}</p>
 
         </ion-card-content>
       </ion-card>

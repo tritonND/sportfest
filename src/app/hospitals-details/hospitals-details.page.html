@@ -1,9 +1,33 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>hospitals-details</ion-title>
+<ion-header [translucent]="true">
+  <ion-toolbar color="danger" align = "center">
+    <ion-title>2020 National Sport Festival</ion-title>
+    <ion-button color="danger" slot="end" (click)="hospitalPage()">Back</ion-button>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title style="font-size: medium"> {{ hospitalName }}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-label>
+        <h3 style="overflow-wrap: break-word !important;">{{hospitalAddress}}</h3>
+        <p style="overflow-wrap: break-word !important; color: #1a1a1a">( {{ hospitalType }} )</p>
+      </ion-label>
+    </ion-card-content>
+  </ion-card>
+
+  <div #map id="map"></div>
+
 </ion-content>
+
+
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar align="center" color="dark">
+    <ion-title style="font-size: small;">Developed By Edo ICT Agency &copy;2020</ion-title>
+  </ion-toolbar>
+</ion-footer>
+

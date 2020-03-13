@@ -8,17 +8,17 @@
 
 <ion-content>
   <div align="center" class="animated zoomIn">
-    <h3 style="font-weight: lighter">Events Schedule</h3>
-    <p style="color: #acaeb5; font-size: small; margin-top: 0%">Click on an Event to view more details</p>
+    <h3 style="font-weight: lighter">Medical Clinics & Referral Hospitals</h3>
+    <p style="color: #acaeb5; font-size: small; margin-top: 0%">Click to view more details</p>
     <hr style="background-color: #808289 !important;"> </div>
 
   <ion-list>
-    <ion-item *ngFor="let event of eventData" (click)="getEventDetails(event)">
+    <ion-item *ngFor="let clinic of hospitalData" (click)="getClinicDetails(clinic)">
       <ion-card style="width: 100% !important;">
         <ion-card-content>
-          <h2 style="color: #000000"><b>Event:</b> {{event.name}} </h2>
-          <h3 style="overflow-wrap: break-word !important;"><b>Venue:</b> {{event.venue}}</h3>
-          <p style="overflow-wrap: break-word !important; color: #3880ff !important;"><b>Date:</b> {{event.event_days}}</p>
+          <h2 style="color: #000000"><b> {{clinic.name}} </b></h2>
+          <h3 style="overflow-wrap: break-word !important;"><b>Address:</b> {{clinic.address}}</h3>
+          <p style="overflow-wrap: break-word !important; color: #3880ff !important;"><b> ( {{clinic.type}} )</b></p>
 
         </ion-card-content>
       </ion-card>

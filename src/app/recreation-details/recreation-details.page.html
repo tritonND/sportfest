@@ -1,9 +1,33 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>recreation-details</ion-title>
+<ion-header [translucent]="true">
+  <ion-toolbar color="warning" align = "center">
+    <ion-title>2020 National Sport Festival</ion-title>
+    <ion-button color="warning" slot="end" (click)="recreationPage()">Back</ion-button>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
 
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title style="font-size: medium; text-transform: uppercase">{{recreationName}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-label>
+        <h2> {{recreationAddress}} </h2>
+        <p style="overflow-wrap: break-word !important; color: #623811 !important;"> {{recreationDescription}}</p>
+      </ion-label>
+    </ion-card-content>
+  </ion-card>
+
+  <div #map id="map"></div>
+
 </ion-content>
+
+
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar align="center" color="dark">
+    <ion-title style="font-size: small;">Developed By Edo ICT Agency &copy;2020</ion-title>
+  </ion-toolbar>
+</ion-footer>
+
