@@ -1,0 +1,66 @@
+
+{
+  "hospitals": [
+    {
+      "name": "Edo Specialist Hospital",
+      "type": "Referral Hospital",
+      "address" : "Sapele Road, Benin City",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    },
+    {
+      "name": "University of Benin Teaching Hospital",
+      "type": "Referral Hospital",
+      "address" : "Benin - Lagos Express Road, Ugbowo, Benin City",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    },
+    {
+      "name": "Benin Medical Care",
+      "type": "Referral Hospital",
+      "address" : "Adesuwa Road, GRA, Benin City",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    },
+    {
+      "name": "Stella Obasanjo Hospital",
+      "type": "Referral Hospital",
+      "address" : "Country Home Hotel Road, Benin City",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    },
+    {
+      "name": "Lily Hospital",
+      "type": "Referral Hospital",
+      "address" : "Boundary Road, Benin City",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    },
+
+    {
+      "name": "Main Games Village Polyclinic in Hall Two Hostel",
+      "type": "Medical Clinic",
+      "address" : "University of Benin, Benin City",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    },
+    {
+      "name": "Games Village Clinic",
+      "type": "Medical Clinic",
+      "address" : "Federal Government Girls College, Benin City",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    },
+    {
+      "name": "Games Village Clinic",
+      "type": "Medical Clinic",
+      "address" : "Ekehuan Campus, University of Benin",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    }
+
+
+
+
+  ]
+}

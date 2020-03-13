@@ -21,9 +21,12 @@ export class EventsPage implements OnInit {
       }
   }
 
+  // Navigate to home page
   homePage() {
     this.router.navigate(['/home']);
   }
+
+  // Get the details of the event passed or clicked
   getEventDetails(event) {
         const navExtras: NavigationExtras = {
             state: {

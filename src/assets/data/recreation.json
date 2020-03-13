@@ -1,0 +1,36 @@
+
+{
+  "recreation": [
+    {
+      "name": "Oba Palace",
+      "description": "The Ancient abode of the Benin Monarch",
+      "address" : "Ogugugbo, Benin City",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    },
+    {
+      "name": "Emotan Statue",
+      "description": "A patriotic heroine who helped Oba Ewuare I to ascend the throne",
+      "address" : "Opposite Oba Market, By Ibiwe Junction, Benin City",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    },
+    {
+      "name": "Asoro Statue",
+      "description": "Hero of the British - Benin War of 1897. He held and defended the Sokpomba axis of Benin City",
+      "address" : "Sokpomba Road Junction, Ring Road, Benin City",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    },
+    {
+      "name": "Statue of Kings in King Square",
+      "description": "Monuments commemorating the 30th anniversary of Oba Erediawa as King of Benin",
+      "address" : "Ogugugbo, Benin City",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    }
+
+
+
+  ]
+}

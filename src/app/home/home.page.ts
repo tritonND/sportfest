@@ -22,11 +22,11 @@ export class HomePage implements AfterViewInit, OnDestroy, OnInit {
     }
 
     showHospitals() {
-        this.router.navigate(['/events']);
+        this.router.navigate(['/hospitals']);
     }
 
     showTourist() {
-        this.router.navigate(['/events']);
+        this.router.navigate(['/recreation']);
     }
 
     ngAfterViewInit() {
