@@ -3,6 +3,8 @@ import {ActivatedRoute, Router, NavigationExtras} from '@angular/router';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
 import { Events} from '../model/events';
 import { EventsService } from '../service/events.service';
+import { LoadingController} from '@ionic/angular';
+
 declare let google: any;
 @Component({
   selector: 'app-event-details',
@@ -24,12 +26,19 @@ export class EventDetailsPage implements AfterViewInit {
     eventVenue: any;
     event = {} as Events;
   constructor( private router: Router, private eventService: EventsService, private routes: ActivatedRoute,
-               private geolocation: Geolocation) {}
+               private geolocation: Geolocation, private loadingCtrl: LoadingController) {}
 
     eventPage() {
         this.router.navigate(['/events']);
     }
-
+    async displayLoading() {
+        const loading = await this.loadingCtrl.create({
+            message: 'Getting Direction, Please enable your internet...',
+            spinner : 'bubbles',
+            duration: 4000
+        });
+        await loading.present();
+    }
     ngAfterViewInit() {
         console.log(this.mapRef);
         console.log('I got here ng');
@@ -54,6 +63,7 @@ export class EventDetailsPage implements AfterViewInit {
         this.showMap();
   }
     showMap() {
+        this.displayLoading();
         this.geolocation.getCurrentPosition().then((resp) => {
             console.log(resp.coords.latitude);
             console.log(resp.coords.longitude);

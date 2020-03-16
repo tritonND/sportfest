@@ -1,5 +1,4 @@
 
-
 {
   "events": [
     {
@@ -7,40 +6,40 @@
       "code": "",
       "event_days": "Friday, March 20th, 2020",
       "venue" : "University of Benin, Halls of Residence & Federal Government Girls College, Ugbowo",
-      "latitude": 6.6117993,
-      "longitude": 3.2194934
+      "latitude": 6.397528,
+      "longitude": 5.619598
     },
     {
       "name": "Opening Ceremony",
       "code": "",
       "event_days": "Sunday, March 22nd, 2020",
       "venue": "Sam Ogbemudia Stadium",
-      "latitude": 6.6132098,
-      "longitude": 5.6047829
+      "latitude": 6.332066,
+      "longitude": 5.610654
     },
     {
       "name": "Abula",
       "code": "AB",
       "event_days": "Monday, March 23rd to Monday, March 30th, 2020",
       "venue": "Sports Complex, University of Benin",
-      "latitude": 6.1699005,
-      "longitude": 5.7955734
+      "latitude": 6.398746,
+      "longitude": 5.610596
     },
     {
       "name": "Athletics",
       "code": "AT",
       "event_days": "Tuesday, March 24th to Sunday, March 29th, 2020",
       "venue": "Sam Ogbemudia Stadium Main Bowl",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.332066,
+      "longitude": 5.610654
     },
     {
       "name": "Ayo",
       "code": "AY",
       "event_days": "Friday, March 27th to Tuesday, March 31st, 2020",
       "venue": "Imaguero College, Sapele Road",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.322355,
+      "longitude": 5.628305
     },
     {
       "name": "Badminton",
@@ -55,80 +54,80 @@
       "code": "BK",
       "event_days": "Tuesday, March 24th to Tuesday, March 31st, 2020",
       "venue": "Emotan College, Wire Road, Benin City",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.347182,
+      "longitude": 5.620365
     },
     {
       "name": "Beach Volley",
       "code": "BV",
       "event_days": "Wednesday, March 25th to Sunday, March 29th, 2020",
       "venue": "Ihogbe College, ICE Road, Benin City",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.349208,
+      "longitude": 5.616127
     },
     {
       "name": "Boxing",
       "code": "BX",
       "event_days": "Monday, March 23rd to Tuesday, March 31st, 2020",
       "venue": "Oba Akenzua Cultural Center, Airport Road",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.330606,
+      "longitude": 5.620381
     },
     {
       "name": "Canoeing",
       "code": "CN",
       "event_days": "Tuesday, March 24th to Monday, March 30th, 2020",
       "venue": "Osiomon Industrial Park, Ologbo",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.054996,
+      "longitude": 5.630558
     },
     {
       "name": "Chess",
       "code": "CH",
       "event_days": "Tuesday, March 24th to Tuesday, March 31st, 2020",
       "venue": "University of Benin, Banquet Hall, Ugbowo",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.396203,
+      "longitude": 5.614896
     },
     {
       "name": "Cricket",
       "code": "CR",
       "event_days": "Monday, March 23rd to Tuesday, March 31st, 2020",
       "venue": "Adolor College, Ugbowo, Benin City",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.387647,
+      "longitude": 5.605366
     },
     {
       "name": "Cycling",
       "code": "CY",
       "event_days": "Monday, March 23rd to Tuesday, March 31st, 2020",
       "venue": "Airport Road, Aruogba, GRA, Benin/Ifon Road",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.265075,
+      "longitude": 5.575141
     },
     {
       "name": "Dambe",
       "code": "DB",
       "event_days": "Sartuday, March 28th to Tuesday, March 31st, 2020",
       "venue": "Oba Akenzua Cultural Center, Airport Road",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.330606,
+      "longitude": 5.620381
     },
     {
       "name": "Darts",
       "code": "DS",
       "event_days": "Wednesday, March 25th to Monday, March 30th, 2020",
       "venue": "Hall 2, Imaguero College, Sapele Road",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.322355,
+      "longitude": 5.628305
     },
     {
       "name": "Deaf Athletics",
       "code": "DA",
       "event_days": "Wednesday, March 25th to Monday, March 30th, 2020",
       "venue": "Sam Ogbemudia Stadium Main Bowl",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.332066,
+      "longitude": 5.610654
     },
     {
       "name": "Deaf Table Tennis",
@@ -143,104 +142,104 @@
       "code": "FB",
       "event_days": "Monday, March 23rd to Tuesday, March 31st, 2020",
       "venue": "University of Benin, Ugbowo, Western High School Benin",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.398746,
+      "longitude": 5.610596
     },
     {
       "name": "Golf",
       "code": "GF",
       "event_days": "Thursday, March 26th to Tuesday, March 31st, 2020",
       "venue": "Benin Club, GRA",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.321129,
+      "longitude": 5.613822
     },
     {
       "name": "Gymnastics",
       "code": "GY",
       "event_days": "Monday, March 23rd to Saturday, March 28th, 2020",
       "venue": "Gymnastics Hall, Sam Ogbemudia Stadium",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.332066,
+      "longitude": 5.610654
     },
     {
       "name": "Handball",
       "code": "HB",
       "event_days": "Monday, March 23rd to Monday, March 30th, 2020",
       "venue": "University of Benin, Sports Complex(Tennis Court), Ugbowo",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.398746,
+      "longitude": 5.610596
     },
     {
       "name": "Hockey",
       "code": "HY",
       "event_days": "Monday, March 23rd to Monday, March 30th, 2020",
       "venue": "St Maria Gorreti College, Dumez Road",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.312990,
+      "longitude": 5.638588
     },
     {
       "name": "Judo",
       "code": "JD",
       "event_days": "Monday, March 23rd to Thursday, March 26th, 2020",
       "venue": "Indoor Hall, University of Benin, Ugbowo",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.398746,
+      "longitude": 5.610596
     },
     {
       "name": "Karate",
       "code": "KT",
       "event_days": "Friday, March 27th to Tuesday, March 31st, 2020",
       "venue": "Idia College Hall, Iyaro, Benin City",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.345167,
+      "longitude": 5.621144
     },
     {
       "name": "Kickboxing",
       "code": "KB",
       "event_days": "Monday, March 23rd to Tuesday, March 31st, 2020",
       "venue": "New Era College, Upper Mission Road",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.367269,
+      "longitude": 5.642599
     },
     {
       "name": "Kokowa",
       "code": "KK",
       "event_days": "Monday, March 23rd to Friday, March 27th, 2020",
       "venue": "Oba Akenzua Cultural Center, Airport Road",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.330606,
+      "longitude": 5.620381
     },
     {
       "name": "Kung-Fu",
       "code": "KG",
       "event_days": "Monday, March 23rd to Friday, March 27th, 2020",
       "venue": "Idia College Hall, Iyaro, Benin City",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.345167,
+      "longitude": 5.621144
     },
     {
       "name": "Langa",
       "code": "LG",
       "event_days": "Wednesday, March 25th to Sunday, March 29th, 2020",
       "venue": "Idia College Field, Iyaro, Benin City",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.345167,
+      "longitude": 5.621144
     },
     {
       "name": "Para-Athletics",
       "code": "PA",
       "event_days": "Wednesday, March 25th to Monday, March 30th, 2020",
       "venue": "Sam Ogbemudia Stadium Main Bowl",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.332066,
+      "longitude": 5.610654
     },
     {
       "name": "Para-Powerlifting",
       "code": "PW",
       "event_days": "Saturday, March 28th to Tuesday, March 31st, 2020",
       "venue": "Sports Hall, Sam Ogbemudia Stadium",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.332066,
+      "longitude": 5.610654
     },
     {
       "name": "Para-Table Tennis",
@@ -255,32 +254,32 @@
       "code": "RG",
       "event_days": "Monday, March 23rd to Sunday, March 29th, 2020",
       "venue": "Adolor College, Ugbowo, Benin City",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.387647,
+      "longitude": 5.605366
     },
     {
       "name": "Scrabble",
       "code": "SC",
       "event_days": "Monday, March 23rd to Friday, March 27th, 2020",
       "venue": "Imaguero College, Sapele Road",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.322355,
+      "longitude": 5.628305
     },
     {
       "name": "Squash",
       "code": "SQ",
       "event_days": "Monday, March 23rd to Monday, March 30th, 2020",
       "venue": "Sam Ogbemudia Stadium, Benin Club",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.332066,
+      "longitude": 5.610654
     },
     {
       "name": "Swimming",
       "code": "SW",
       "event_days": "Monday, March 23rd to Sartuday, March 28th, 2020",
       "venue": "Sam Ogbemudia Stadium",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.332066,
+      "longitude": 5.610654
     },
     {
       "name": "Table Tennis",
@@ -295,64 +294,64 @@
       "code": "TK",
       "event_days": "Monday, March 23rd to Thursday, March 26th, 2020",
       "venue": "Indoor Hall, University of Benin, Ugbowo",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.398746,
+      "longitude": 5.610596
     },
     {
       "name": "Tennis",
       "code": "TN",
       "event_days": "Monday, March 23rd to Monday, March 30th, 2020",
       "venue": "Tennis Court, Sam Ogbemudia Stadium",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.332066,
+      "longitude": 5.610654
     },
     {
       "name": "Volleyball(Outdoor)",
       "code": "VB",
       "event_days": "Tuesday, March 24th to Monday, March 31st, 2020",
       "venue": "Emotan College, Wire Road, Benin City",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.347182,
+      "longitude": 5.620365
     },
     {
       "name": "Weightlifting",
       "code": "WL",
       "event_days": "Tuesday, March 24th to Friday, March 27th, 2020",
       "venue": "Sports Hall, Sam Ogbemudia Stadium",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.332066,
+      "longitude": 5.610654
     },
     {
       "name": "Wrestling",
       "code": "WR",
       "event_days": "Friday, March 27th to Tuesday, March 31st, 2020",
       "venue": "Indoor Hall, University of Benin, Ugbowo",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.398746,
+      "longitude": 5.610596
     },
     {
       "name": "Closing Ceremony",
       "code": "",
       "event_days": "Wednesday, April 1st 2020",
       "venue": "Sam Ogbemudia Stadium",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.332066,
+      "longitude": 5.610654
     },
     {
       "name": "Teams' Depatures",
       "code": "",
       "event_days": "Thursday, April 2nd 2020",
       "venue": "University of Benin, Halls of Residence",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.397528,
+      "longitude": 5.619598
     },
     {
       "name": "Games Village Close",
       "code": "",
       "event_days": "Friday, April 3rd 2020",
       "venue": "University of Benin, Halls of Residence",
-      "latitude": 6.315948,
-      "longitude": 5.6047829
+      "latitude": 6.397528,
+      "longitude": 5.619598
     }
   ]
 }

@@ -5,32 +5,65 @@
       "name": "Oba Palace",
       "description": "The Ancient abode of the Benin Monarch",
       "address" : "Ogugugbo, Benin City",
-      "latitude": 6.3227681,
-      "longitude": 5.6260585
+      "latitude": 6.332237,
+      "longitude": 5.619213
     },
     {
       "name": "Emotan Statue",
       "description": "A patriotic heroine who helped Oba Ewuare I to ascend the throne",
       "address" : "Opposite Oba Market, By Ibiwe Junction, Benin City",
-      "latitude": 6.3227681,
-      "longitude": 5.6260585
+      "latitude": 6.335420,
+      "longitude": 5.620675
     },
     {
       "name": "Asoro Statue",
-      "description": "Hero of the British - Benin War of 1897. He held and defended the Sokpomba axis of Benin City",
-      "address" : "Sokpomba Road Junction, Ring Road, Benin City",
-      "latitude": 6.3227681,
-      "longitude": 5.6260585
+      "description": "Hero of the British - Benin War of 1897. He held and defended the Sakpoba axis of Benin City",
+      "address" : "Sakpoba Road Junction, Ring Road, Benin City",
+      "latitude": 6.326951,
+      "longitude": 5.630381
     },
     {
       "name": "Statue of Kings in King Square",
       "description": "Monuments commemorating the 30th anniversary of Oba Erediawa as King of Benin",
-      "address" : "Ogugugbo, Benin City",
-      "latitude": 6.3227681,
-      "longitude": 5.6260585
+      "address" : "Ring Road, Benin City",
+      "latitude": 6.332747,
+      "longitude":  5.621366
+    },
+    {
+      "name": "National Museum",
+      "description": "A rare collection of artifacts from across Nigeria",
+      "address" : "Ring Road Roundabout, Oka , Benin City",
+      "latitude": 6.332947,
+      "longitude": 5.622104
+    },
+    {
+      "name": "Oba Market",
+      "description": "One of the oldest markets Benin named after the Oba",
+      "address" : "Ring Road, Benin City",
+      "latitude": 6.335021,
+      "longitude": 5.620003
+    },
+    {
+      "name": "Edaiken Palace",
+      "description": "Abode of the crown Prince and heir apparent to the throne of Benin before the coronation",
+      "address" : "Uselu, Benin City",
+      "latitude": 6.368802,
+      "longitude": 5.614916
+    },
+    {
+      "name": "Udin Amamieson Aimilima",
+      "description": "Mythical palm trees which the Edaiken climbs on his way to be crowed",
+      "address" : "Uselu Shell, behind GT plaza Benin City",
+      "latitude": 6.362941,
+      "longitude":  5.618945
+    },
+    {
+      "name": "Old Palace(Coronation site)",
+      "description": "Former palace of great Benin Kingdom before moving to the present site",
+      "address" : "Usama street, off siluko Road, Benin City",
+      "latitude": 6.339065,
+      "longitude": 5.615736
     }
-
-
 
   ]
 }

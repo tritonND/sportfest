@@ -29,6 +29,10 @@ export class HomePage implements AfterViewInit, OnDestroy, OnInit {
         this.router.navigate(['/recreation']);
     }
 
+    showIncidence() {
+        this.router.navigate(['/myform']);
+    }
+
     ngAfterViewInit() {
         console.log('My route', this.router.getCurrentNavigation().id);
         console.log('My route', this.router.url);

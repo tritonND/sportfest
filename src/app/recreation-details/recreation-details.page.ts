@@ -3,6 +3,9 @@ import {ActivatedRoute, Router, NavigationExtras} from '@angular/router';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
 import {Recreation} from '../model/recreation';
 import { RecreationService } from '../service/recreation.service';
+import {LoadingController} from '@ionic/angular';
+
+declare let google: any;
 
 @Component({
   selector: 'app-recreation-details',
@@ -23,10 +26,19 @@ export class RecreationDetailsPage implements AfterViewInit {
     recreationDescription: any;
     recreation = {} as Recreation;
     constructor( private router: Router, private recreationService: RecreationService, private routes: ActivatedRoute,
-                 private geolocation: Geolocation) {}
+                 private geolocation: Geolocation, private loadingCtrl: LoadingController) {}
 
     recreationPage() {
         this.router.navigate(['/recreation']);
+    }
+
+    async displayLoading() {
+        const loading = await this.loadingCtrl.create({
+            message: 'Getting Direction, Please enable your internet...',
+            spinner : 'bubbles',
+            duration: 4000
+        });
+        await loading.present();
     }
 
     ngAfterViewInit() {
@@ -46,6 +58,7 @@ export class RecreationDetailsPage implements AfterViewInit {
         this.showMap();
     }
     showMap() {
+        this.displayLoading();
         this.geolocation.getCurrentPosition().then((resp) => {
             this.lat = resp.coords.latitude;
             this.lng = resp.coords.longitude;

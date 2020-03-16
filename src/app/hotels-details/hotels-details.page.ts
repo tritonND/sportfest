@@ -3,6 +3,7 @@ import {ActivatedRoute, Router, NavigationExtras} from '@angular/router';
 import { Geolocation } from '@ionic-native/geolocation/ngx';
 import {Hotels} from '../model/hotels';
 import {HotelsService} from '../service/hotels.service';
+import { LoadingController } from '@ionic/angular';
 
 declare let google: any;
 
@@ -30,10 +31,19 @@ export class HotelsDetailsPage implements AfterViewInit {
     hotelPhone: any;
     hotel = {} as Hotels;
     constructor( private router: Router, private hotelService: HotelsService, private routes: ActivatedRoute,
-                 private geolocation: Geolocation) {}
+                 private geolocation: Geolocation, private loadingCtrl: LoadingController) {}
 
     hotelPage() {
         this.router.navigate(['/hotels']);
+    }
+
+    async displayLoading() {
+        const loading = await this.loadingCtrl.create({
+            message: 'Getting Direction, Please enable your internet...',
+            spinner : 'bubbles',
+            duration: 4000
+        });
+        await loading.present();
     }
 
     ngAfterViewInit() {
@@ -58,6 +68,7 @@ export class HotelsDetailsPage implements AfterViewInit {
         this.showMap();
     }
     showMap() {
+        this.displayLoading();
         this.geolocation.getCurrentPosition().then((resp) => {
             this.lat = resp.coords.latitude;
             this.lng = resp.coords.longitude;

@@ -1,0 +1,100 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="primary" align = "center">
+    <ion-title>2020 National Sport Festival</ion-title>
+    <ion-button color="primary" size="small" slot="end" (click)="homePage()">Home</ion-button>
+  </ion-toolbar>
+</ion-header>
+
+  <ion-content color="primary" padding>
+    <form #form="ngForm" (ngSubmit)="sendReport(form)" style="margin-top: 15%">
+      <ion-grid>
+        <ion-row color="primary" justify-content-center>
+          <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+            <div text-center align="center">
+              <ion-title>Report an Incidence</ion-title>
+            </div>
+            <div padding>
+
+                <ion-item>
+                  <ion-label position="floating">Full Name</ion-label>
+                  <ion-input minlength="5" name="fullname" id="fullname" type="text" placeholder="Full Name" ngModel clear-input="true" required></ion-input>
+                </ion-item>
+
+              <ion-item>
+                <ion-label position="floating">Phone Number</ion-label>
+                <ion-input name="phone" id="phone" type="text" pattern="(0[1-9]{1}[0-9]{9}|\+234[1-9]{1}[0-9]{9})" clear-input="true" placeholder="08099999999" ngModel required></ion-input>
+              </ion-item>
+
+
+              <ion-item>
+                <ion-label>Where Did Incident Occur?</ion-label>
+                <ion-select ngModel  name="incidentType" id="incidentType" placeholder="" interface="action-sheet">
+                  <ion-select-option value="Event">Event</ion-select-option>
+                  <ion-select-option value="Hotel">Hotel</ion-select-option>
+                  <ion-select-option value="Hospital">Hospital</ion-select-option>
+                  <ion-select-option value="Tourist Site">Tourist Site</ion-select-option>
+                </ion-select>
+              </ion-item>
+      <!--<p> {{form.value.incidentType}}</p>-->
+
+              <div *ngIf="form.value.incidentType == 'Event'">
+                  <ion-item>
+                    <ion-label>Event</ion-label>
+                    <ion-select ngModel name="location" id="location" placeholder="Select One" interface="popover">
+                      <ion-select-option *ngFor="let event of eventData"  value="{{ event.name }}">{{ event.name }}</ion-select-option>
+                    </ion-select>
+                  </ion-item>
+              </div>
+
+
+              <div *ngIf="form.value.incidentType == 'Hotel' ">
+                <ion-item>
+                  <ion-label>Hotel</ion-label>
+                  <ion-select ngModel name="location" id="location" placeholder="Select One" interface="popover">
+                    <ion-select-option *ngFor="let hotel of hotelData"  value="{{ hotel.name }}">{{ hotel.name }}</ion-select-option>
+                  </ion-select>
+                </ion-item>
+              </div>
+
+
+              <div *ngIf="form.value.incidentType == 'Hospital' ">
+                <ion-item>
+                  <ion-label>Hospital</ion-label>
+                  <ion-select ngModel name="location" id="location" placeholder="Select One" interface="popover">
+                    <ion-select-option *ngFor="let hospital of hospitalData"  value="{{ hospital.name }}">{{ hospital.name }}</ion-select-option>
+                  </ion-select>
+                </ion-item>
+              </div>
+
+              <div *ngIf="form.value.incidentType == 'Tourist Site'">
+                  <ion-item>
+                    <ion-label>Tourist Site</ion-label>
+                    <ion-select ngModel name="location" id="location" placeholder="Select One" interface="popover">
+                      <ion-select-option *ngFor="let recreation of recreationData"  value="{{ recreation.name }}">{{ recreation.name }}</ion-select-option>
+                    </ion-select>
+                  </ion-item>
+              </div>
+
+              <ion-item>
+                <ion-label position="floating">Enter Incidence</ion-label>
+                <ion-input ngModel name="reports" id="reports" type="text" maxlength="200" minlength="15" clear-input="true" required></ion-input>
+              </ion-item>
+
+            </div>
+            <div align="center">
+              <ion-button color="success" size="medium" type="submit" [disabled]="form.invalid" >Send</ion-button>
+            </div>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </form>
+
+</ion-content>
+
+
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar align="center" color="dark">
+    <ion-title style="font-size: small;">Developed By Edo ICT Agency &copy;2020</ion-title>
+  </ion-toolbar>
+</ion-footer>
