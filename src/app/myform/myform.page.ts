@@ -19,7 +19,11 @@ import { HTTP } from '@ionic-native/http/ngx';
 })
 export class MyformPage implements OnInit, AfterViewInit {
     httpHeader = {
-        headers: new HttpHeaders({'Content-type': 'application/json'})
+        headers: new HttpHeaders({'Content-type': 'application/json',
+            'Access-Control-Allow-Origin': '*',
+            'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+            'Access-Control-Allow-Headers': 'Content-Type'
+        })
     };
     recreationData = [];
     hotelData = [];
@@ -41,7 +45,7 @@ export class MyformPage implements OnInit, AfterViewInit {
           .then(data => {
               this.recreationData = data.recreation;
               this.recreationService.setrecreation(this.recreationData);
-              console.log(data.recreation);
+              // console.log(data.recreation);
           });
 
       //  For hospital Data
@@ -49,7 +53,7 @@ export class MyformPage implements OnInit, AfterViewInit {
           .then(data => {
               this.hospitalData = data.hospitals;
               this.hospitalService.sethospitals(this.hospitalData);
-              console.log(data.hospitals);
+              // console.log(data.hospitals);
           });
 
       //  For hotel Data
@@ -57,7 +61,7 @@ export class MyformPage implements OnInit, AfterViewInit {
           .then(data => {
               this.hotelData = data.hotels;
               this.hotelService.sethotels(this.hotelData);
-              console.log(data.hotels);
+              // console.log(data.hotels);
           });
 
       //  For events Data
@@ -65,7 +69,7 @@ export class MyformPage implements OnInit, AfterViewInit {
           .then(data => {
               this.eventData = data.events;
               this.eventService.setEvents(this.eventData);
-              console.log(data.events);
+              // console.log(data.events);
           });
 
   }
@@ -104,18 +108,36 @@ export class MyformPage implements OnInit, AfterViewInit {
             message: 'Sending, Please wait...',
             spinner : 'bubbles'
         });
+        // await loading.present().then(() => {
+        //     this.http.post('https://subeb.edostate.gov.ng/sportfest/incident.php', postData, this.httpHeader)
+        //         .then(data => {
+        //             loading.dismiss();
+        //             form.reset();
+        //             this.presentToast();
+        //             this.router.navigate(['/home']);
+        //         })
+        //         .catch(error => {
+        //             loading.dismiss();
+        //             console.log(error);
+        //             this.presentToastError();
+        //         });
+        // });
+
         await loading.present().then(() => {
-            this.http.post('http://132.148.23.19/sportfest/incident.php', postData, this.httpHeader)
-                .then(data => {
-                    loading.dismiss();
-                    form.reset();
-                    this.presentToast();
-                    this.router.navigate(['/home']);
-                })
-                .catch(error => {
-                    loading.dismiss();
-                    this.presentToastError();
-                });
+            this.httpClient.post('https://subeb.edostate.gov.ng/sportfest/incident.php', postData)
+                .subscribe(
+                data => {
+            console.log(data);
+            loading.dismiss();
+            form.reset();
+            this.presentToast();
+            this.router.navigate(['/home']);
+        },
+        error => {
+            console.log(error);
+            loading.dismiss();
+            this.presentToastError();
+           });
         });
 
 

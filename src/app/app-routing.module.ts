@@ -41,14 +41,6 @@ const routes: Routes = [
     loadChildren: () => import('./recreation-details/recreation-details.module').then( m => m.RecreationDetailsPageModule)
   },
   {
-    path: 'test',
-    loadChildren: () => import('./test/test.module').then( m => m.TestPageModule)
-  },
-  {
-    path: 'test-details',
-    loadChildren: () => import('./test-details/test-details.module').then( m => m.TestDetailsPageModule)
-  },
-  {
     path: 'myform',
     loadChildren: () => import('./myform/myform.module').then( m => m.MyformPageModule)
   },

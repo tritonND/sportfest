@@ -11,18 +11,24 @@
         <ion-row color="primary" justify-content-center>
           <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
             <div text-center align="center">
-              <ion-title>Report an Incidence</ion-title>
+              <ion-title>Report an Incident</ion-title>
             </div>
             <div padding>
 
                 <ion-item>
                   <ion-label position="floating">Full Name</ion-label>
-                  <ion-input minlength="5" name="fullname" id="fullname" type="text" placeholder="Full Name" ngModel clear-input="true" required></ion-input>
+                  <ion-input minlength="5" name="fullname" id="fullname" type="text"  ngModel clear-input="true" required></ion-input>
                 </ion-item>
 
               <ion-item>
                 <ion-label position="floating">Phone Number</ion-label>
-                <ion-input name="phone" id="phone" type="text" pattern="(0[1-9]{1}[0-9]{9}|\+234[1-9]{1}[0-9]{9})" clear-input="true" placeholder="08099999999" ngModel required></ion-input>
+                <ion-input name="phone" id="phone" type="text" pattern="(0[1-9]{1}[0-9]{9}|\+234[1-9]{1}[0-9]{9})" clear-input="true"  ngModel required></ion-input>
+              </ion-item>
+
+              <ion-item>
+                <ion-label position="floating">Enter Incident</ion-label>
+                <ion-input ngModel name="reports" id="reports" type="text" maxlength="200" minlength="15" clear-input="true" required></ion-input>
+
               </ion-item>
 
 
@@ -33,9 +39,17 @@
                   <ion-select-option value="Hotel">Hotel</ion-select-option>
                   <ion-select-option value="Hospital">Hospital</ion-select-option>
                   <ion-select-option value="Tourist Site">Tourist Site</ion-select-option>
+                  <ion-select-option value="Others">Others</ion-select-option>
                 </ion-select>
               </ion-item>
       <!--<p> {{form.value.incidentType}}</p>-->
+
+              <div *ngIf="form.value.incidentType == 'Others'">
+                <ion-item>
+                  <ion-label>Specify</ion-label>
+                  <ion-input ngModel name="reports" id="location" type="text" maxlength="200"  clear-input="true"></ion-input>
+                </ion-item>
+              </div>
 
               <div *ngIf="form.value.incidentType == 'Event'">
                   <ion-item>
@@ -75,10 +89,6 @@
                   </ion-item>
               </div>
 
-              <ion-item>
-                <ion-label position="floating">Enter Incidence</ion-label>
-                <ion-input ngModel name="reports" id="reports" type="text" maxlength="200" minlength="15" clear-input="true" required></ion-input>
-              </ion-item>
 
             </div>
             <div align="center">

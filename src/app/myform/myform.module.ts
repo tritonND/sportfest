@@ -7,6 +7,7 @@ import { IonicModule } from '@ionic/angular';
 import { MyformPageRoutingModule } from './myform-routing.module';
 
 import { MyformPage } from './myform.page';
+import {HTTP} from '@ionic-native/http/ngx';
 
 @NgModule({
   imports: [
@@ -15,6 +16,7 @@ import { MyformPage } from './myform.page';
     IonicModule,
     MyformPageRoutingModule
   ],
+    providers: [HTTP],
   declarations: [MyformPage]
 })
 export class MyformPageModule {}
