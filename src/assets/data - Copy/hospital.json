@@ -1,0 +1,119 @@
+
+{
+  "hospitals": [
+    {
+      "name": "Edo Specialist Hospital",
+      "type": "Referral Hospital",
+      "address" : "Sapele Road, Benin City",
+      "latitude": 6.331132,
+      "longitude": 5.622980
+    },
+    {
+      "name": "University of Benin Teaching Hospital",
+      "type": "Referral Hospital",
+      "address" : "Benin - Lagos Express Road, Ugbowo, Benin City",
+      "latitude": 6.390631,
+      "longitude": 5.611815
+    },
+    {
+      "name": "Benin Medical Care",
+      "type": "Referral Hospital",
+      "address" : "Adesuwa Road, GRA, Benin City",
+      "latitude": 6.303262,
+      "longitude": 5.621124
+    },
+    {
+      "name": "Stella Obasanjo Hospital",
+      "type": "Referral Hospital",
+      "address" : "Country Home Hotel Road, Benin City",
+      "latitude": 6.275789,
+      "longitude": 5.630157
+    },
+    {
+      "name": "Lily Hospital",
+      "type": "Referral Hospital",
+      "address" : "Boundary Road, Benin City",
+      "latitude": 6.318441,
+      "longitude": 5.610015
+    },
+
+    {
+      "name": "Main Games Village Polyclinic",
+      "type": "Medical Clinic",
+      "address" : "Hall Two Hostel, University of Benin, Benin City",
+      "latitude": 6.397528,
+      "longitude": 5.619598
+    },
+    {
+      "name": "Games Village Clinic, Federal Government Girls",
+      "type": "Medical Clinic",
+      "address" : "Federal Government Girls College, Benin City",
+      "latitude": 6.390547,
+      "longitude": 5.628744
+    },
+    {
+      "name": "Sam Ogbemudia Stadium Medical Clinic",
+      "type": "Medical Clinic",
+      "address" : "Sam Ogbemudia Stadium",
+      "latitude": 6.332066,
+      "longitude": 5.610654
+    },
+    {
+      "name": "Sam Ogbemudia Stadium Doping Control Room",
+      "type": "Medical Clinic",
+      "address" : "Sam Ogbemudia Stadium",
+      "latitude": 6.332066,
+      "longitude": 5.610654
+    },
+    {
+      "name": "NSF Family Clinic",
+      "type": "Medical Clinic",
+      "address" : "Randekhi Hotel - Gold Wing, Off Ihama Road, GRA, Benin City",
+      "latitude": 6.312631,
+      "longitude": 5.614327
+    },
+    {
+      "name": "Sports Complex Medical Clinic",
+      "type": "Medical Clinic",
+      "address" : "Sports Complex, University of Benin",
+      "latitude": 6.398746,
+      "longitude": 5.610596
+    },
+    {
+      "name": "Indoor Sports Hall Doping Control Room",
+      "type": "Medical Clinic",
+      "address" : "Indoor Sports Hall, Sports Complex, University of Benin",
+      "latitude": 6.398746,
+      "longitude": 5.610596
+    },
+    {
+      "name": "Medical Stands",
+      "type": "Medical Clinic",
+      "address" : "On the Sidelines at Various Event",
+      "latitude": 6.3227681,
+      "longitude": 5.6260585
+    },
+    {
+      "name": "Oba Akenzua Cultural Center Doping Control Room",
+      "type": "Medical Clinic",
+      "venue": "Oba Akenzua Cultural Center, Airport Road",
+      "latitude": 6.330606,
+      "longitude": 5.620381
+    },
+    {
+      "name": "Emotan College Medical Clinic",
+      "type": "Medical Clinic",
+      "address" : "Emotan College",
+      "latitude": 6.347182,
+      "longitude": 5.620365
+    },
+    {
+      "name": "Idia College Medical Clinic",
+      "type": "Medical Clinic",
+      "address" : "Idia College",
+      "latitude": 6.345167,
+      "longitude": 5.621144
+    }
+
+  ]
+}
