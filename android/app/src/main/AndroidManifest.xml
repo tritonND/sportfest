@@ -13,7 +13,7 @@
         <activity
             android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale"
             android:name="com.sportfest.app.MainActivity"
-            android:label="@string/title_activity_main"
+            android:label="Edo 2020"
             android:theme="@style/AppTheme.NoActionBarLaunch"
             android:launchMode="singleTask">
 

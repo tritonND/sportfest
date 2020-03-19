@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "228883691833",
+    "firebase_url": "https://sportfest-23c49.firebaseio.com",
+    "project_id": "sportfest-23c49",
+    "storage_bucket": "sportfest-23c49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228883691833:android:e31af36530636c118ad0e8",
+        "android_client_info": {
+          "package_name": "com.icta.sportfest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228883691833-ihevrqtc2p6ikq13bql678utm9peej47.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsSsrdWI78M_c-_oxfnnpOx1cdMd3Ym9Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228883691833-ihevrqtc2p6ikq13bql678utm9peej47.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
